@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-counters,
 #fh5co-pricing,
 #fh5co-blog {
-  padding: 8em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services,
@@ -696,6 +696,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .getting-started .call-to-action .sign-up:hover, .getting-started .call-to-action .sign-up:focus, .getting-started .call-to-action .sign-up:active {
   text-decoration: none;
+}
+
+#fh5co-blog {
+  padding: 0em 0;
 }
 
 .fh5co-blog .blog {
@@ -938,6 +942,8 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  /* background-color: #10989A; */
+
 }
 .fh5co-counters .counter-wrap {
   border: 1px solid red !important;
