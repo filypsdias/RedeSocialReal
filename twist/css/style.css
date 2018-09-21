@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.3);
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 800px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -1493,6 +1493,12 @@ h1, h2, h3, h4, h5, h6 {
   .row-bottom-padded-sm {
     padding-bottom: 2em;
   }
+}
+
+@media screen and (max-width: 500px) {
+  #fh5co-home, #fh5co-home .text-wrap {
+    height: 190px !important;
+  } 
 }
 
 .fh5co-animated {
